@@ -1,5 +1,6 @@
 #include<unp.h>
 #include<stdio.h>
+/*
 void str_cli(FILE *fp,int sockfd){
 	int maxfdp1;
 	fd_set rset;
@@ -22,6 +23,8 @@ void str_cli(FILE *fp,int sockfd){
 		}
 	}
 }
+*/
+#include"str_cli.h"
 int main(int argc,char **argv){
 	int sockfd;
 	struct sockaddr_in servaddr;
